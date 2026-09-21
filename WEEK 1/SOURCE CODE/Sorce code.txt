@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+     echo "Hello, World!";
+    print "Welcome to PHP";
+    echo '<h1>Hello, World HTML tag version</h1>';
+
+     if ($age > 40) {
+        echo "You're ADULTY.<br />";
+    } elseif ($age > 20) { 
+        echo "You're a young adult.<br />";
+    } else {
+        echo "You're a young.<br />";
+    }
+
+        // write a PHP program to check the marks of student and print the corresponding grade :
+        $marks = 101;
+        if ($marks > 100) {
+        echo "invalid marks";
+        }  
+        else if ($marks >= 90) {
+            echo "Grade: A";
+        } elseif ($marks >= 80) {
+            echo "Grade: B";
+        } else IF ($marks >= 70) {
+            echo "Grade: C";
+        }
+        else if ($marks >= 60) {
+            echo "Grade: D";
+        } else {
+            echo "Grade: F";
+        }
+ 
+    ?>
+
+
+</body> 
+</html>
