@@ -7,7 +7,6 @@
 </head>
 <body>
     <?php
-    // write a program to find the reserve of given number (for exmple the reverse of 12345 = 54321,do not use any built-in function such as the Strrev Function )
     $number = 12345;
 $reverse = 0;
 
