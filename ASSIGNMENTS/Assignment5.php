@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+
     $number = 12345;
 $reverse = 0;
 
