@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f5f7;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.form-card {
+    width: 100%;
+    padding: 25px;
+    border: 1px solid #d9dee5;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 14px rgba(35, 50, 65, 0.07);
+}
+
+.card-heading {
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin: 0 0 8px;
+    font-size: 26px;
+}
+
+.intro {
+    margin: 0;
+    color: #666;
+}
+
+.field {
+    margin-bottom: 18px;
+}
+
+.field > label,
+.gender-field legend {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.optional {
+    color: #777;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.field input,
+.field textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c8ced6;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #333;
+    font: inherit;
+}
+
+.field input {
+    height: 40px;
+}
+
+.field textarea {
+    resize: vertical;
+}
+
+.field input:focus,
+.field textarea:focus {
+    border-color: #4a78a8;
+    outline: 2px solid rgba(74, 120, 168, 0.18);
+}
+
+.gender-field {
+    margin: 0 0 22px;
+    padding: 0;
+    border: 0;
+}
+
+.gender-field legend {
+    padding: 0;
+}
+
+.gender-options {
+    display: flex;
+    gap: 20px;
+}
+
+.choice {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.choice input {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button {
+    padding: 10px 16px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    font: inherit;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.reset-btn {
+    background-color: #eee;
+    color: #333;
+}
+
+.register-btn {
+    border-color: #376b9e;
+    background-color: #376b9e;
+    color: #fff;
+}
+
+.reset-btn:hover {
+    background-color: #ddd;
+}
+
+.register-btn:hover {
+    background-color: #2d587f;
+}
+
+.result {
+    margin-top: 22px;
+    padding: 14px;
+    border: 1px solid #c8d6e2;
+    border-radius: 6px;
+    background-color: #f5f8fa;
+}
+
+.result h2 {
+    margin: 0 0 12px;
+    font-size: 17px;
+}
+
+.result dl {
+    margin: 0;
+}
+
+.result dl > div {
+    margin-top: 10px;
+}
+
+.result dt {
+    font-weight: bold;
+}
+
+.result dd {
+    margin: 4px 0 0;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 540px) {
+    .page {
+        margin: 18px auto;
+        padding: 0 12px;
+    }
+
+    .form-card {
+        padding: 18px;
+    }
+}
